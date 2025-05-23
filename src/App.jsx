@@ -10,7 +10,7 @@ import Footer from "./components/Footer.jsx";
 function App() {
 
   return (
-    <>
+    <div className="overflow-x-hidden">
         <Hero />
         <About />
         <Services />
@@ -19,7 +19,7 @@ function App() {
         <Testimonials />
         <MainCTA />
         <Footer />
-    </>
+    </div>
   )
 }
 

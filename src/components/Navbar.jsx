@@ -1,7 +1,7 @@
 
 const Navbar = () => {
     return (
-        <nav className="fixed top-0 w-full p-6 flex justify-between items-center z-50">
+        <nav className="fixed top-0 w-full max-md:w-[80%] p-6 flex justify-between items-center z-50">
             <img src="/Logo.png" alt="logo" className="max-lg:w-[100px]"/>
             {/*  menu  */}
             <div
