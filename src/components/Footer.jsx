@@ -3,8 +3,8 @@ import {footerNavLinks} from "../constants/index.js";
 
 const Footer = () => (
     <div className="min-h-[50vh] overflow-hidden relative flex-center flex-col w-full py-4">
-        <Spotlight size="500px" className="-right-3 -top-20" />
-        <Spotlight size="500px" className="-left-3" />
+        <Spotlight size="500px" className="-right-3 -top-20 max-md:hidden" />
+        <Spotlight size="500px" className="-left-3 max-md:-top-72 max-md:-left-44" />
         <div className="flex-center flex-col gap-3">
             <img src="/Logo.png" alt="footer-logo" />
             <p className="max-w-[300px] max-md:text-sm mt-3">Empower Your Crypto Project With The Support To Scale Faster</p>
